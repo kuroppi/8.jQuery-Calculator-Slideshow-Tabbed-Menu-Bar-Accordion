@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment 8 | Tabbed Menu Bar</title>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="js/menubar.js"></script>
+    <style>
+        body {
+            margin: 25px 20%;
+        }
+        
+        a {
+            color: black;
+        }
+        main {
+            border: 2px solid black;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        
+        div#tabs {
+            background-color: gray;
+            padding: 7px 0 0 0;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            margin: 0;
+        }
+        
+        div#tabs ul {
+            padding: 0 0 0 5px;
+            margin: 0;
+        }
+        
+        div#tabs ul li {
+            display: inline-block;
+            padding: 5px 10px;
+            border: 1px solid grey;
+            background-color: lightgray;
+            border-top-left-radius: 3px;
+            border-top-right-radius: 3px;
+        }
+        
+        #tabs ul li a {
+            text-decoration: none;
+        }
+        
+        p {
+            margin: 15px;
+        }
+        
+        #text-2,
+        #text-3,
+        #text-4 {
+            display: none;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <main>
+        <div id="tabs">
+            <ul>
+                <li><a id="tab-1" href="#">Assessment</a></li>
+                <li><a id="tab-2" href="#">Exploration</a></li>
+                <li><a id="tab-3" href="#">Decisions</a></li>
+                <li><a id="tab-4" href="#">Actions</a></li>
+            </ul>
+        </div>
+        <div id="text">
+            <div id="text-1">
+                <p>Assess yourself to discover what you have that is valuable to an employer. Be prepared to talk about your interests, skills, abilities, and personality type. The more you take stock of yourself, the easier it is to make a good career decision, create your resume and sell yourself in the interview to get the job you want. A good foundation for career success often builds from solid knowledge about yourself.</p>
+            </div>
+
+            <div id="text-2">
+                <p>Explore the workplace by studying jobs, industries, and current labor market conditions that match your current skills and/or explore what training programs would prepare you for a job. The internet is a great resource, but also plan to talk directly to people who have the job you want.</p>
+            </div>
+
+            <div id="text-3">
+                <p>Decide and set goals so you have a good “reality check” before you take action. This step is about making decisions and is critical step in the career planning process. It is important to set realistic goals based on current labor market conditions and economic forecasts. SMART goal setting is one of the more popular methods to manage your plan.</p>
+            </div>
+
+            <div id="text-4">
+                <p>Take action as a fourth step—not a first step! This fourth step is about creating resumes and cover letters, preparing for interviews, developing good job leads, applying for work, negotiating salaries, etc. It is also the step to enroll in training for a new job (if that is one of your goals).</p>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

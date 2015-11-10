@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment 8 | Accordion</title>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="js/accordion.js"></script>
+    <style>
+        main {
+            border: 3px solid black;
+            border-radius: 15px;
+            padding: 20px;
+            margin: 25px 10%;
+            min-height: 500px;
+        }
+        
+        main p:first-of-type {
+            margin-bottom: 30px;
+        }
+        
+        h2 {
+            background-image: url(images/plus.png);
+            background-repeat: no-repeat;
+            background-position: left center;
+            background-position: 10px;
+            background-color: #298975;
+            border-radius: 15px;
+            padding: 10px;
+            margin: 3px 0 0 0;
+        }
+        h2.minus {
+            background-image: url(images/minus.png);
+            background-repeat: no-repeat;
+            background-position: left center;
+            background-position: 10px;
+        }
+        h2 a {
+            padding-left: 30px;
+        }
+        div.text {
+            display: none;
+        }
+        a {
+            text-decoration: none;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <main id="faqs">
+        <h1>Career Services</h1>
+        <p>Career Development Services (CDS) offers individual and classroom career planning and job search services to prepare you for the workplace. Career counselors often follow a career development model using the following four simple steps to helps students create a Career Action Plan. Contact a Student Services office at any campus to meet with a Career Counselor.</p>
+        <h2><a href="#">Assessment</a></h2>
+        <div class="text">
+            <p>Assess yourself to discover what you have that is valuable to an employer. Be prepared to talk about your interests, skills, abilities, and personality type. The more you take stock of yourself, the easier it is to make a good career decision, create your resume and sell yourself in the interview to get the job you want. A good foundation for career success often builds from solid knowledge about yourself.</p>
+        </div>
+        <h2><a href="#">Exploration</a></h2>
+        <div class="text">
+            <p>Explore the workplace by studying jobs, industries, and current labor market conditions that match your current skills and/or explore what training programs would prepare you for a job. The internet is a great resource, but also plan to talk directly to people who have the job you want.</p>
+        </div>
+        <h2><a href="#">Decisions</a></h2>
+        <div class="text">
+            <p>Decide and set goals so you have a good “reality check” before you take action. This step is about making decisions and is critical step in the career planning process. It is important to set realistic goals based on current labor market conditions and economic forecasts. SMART goal setting is one of the more popular methods to manage your plan.</p>
+        </div>
+        <h2><a href="#">Actions</a></h2>
+        <div class="text">
+            <p>Take action as a fourth step—not a first step! This fourth step is about creating resumes and cover letters, preparing for interviews, developing good job leads, applying for work, negotiating salaries, etc. It is also the step to enroll in training for a new job (if that is one of your goals).</p>
+        </div>
+    </main>
+</body>
+</html>
