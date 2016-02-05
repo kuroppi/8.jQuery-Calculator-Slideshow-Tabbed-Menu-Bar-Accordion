@@ -17,4 +17,4 @@ jQuery Image Selection Slideshow
 
 jQuery Tabbed Menu Bar
 
-jQuery Accordion (10 points)
+jQuery Accordion
