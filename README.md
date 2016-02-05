@@ -11,7 +11,10 @@ jQuery Events
 - Create a text field using the input tag. When the input has focus, set the background to a light gray color. When the input does not have focus, reset the background back to a white color.
 - Add a form tag within a web page complete with 2 input fields: one that collects name and a second that collects an email. Add a submit button. When the user submits the form, if any one of the two fields is left empty, display an alert box to the user indicating that the fields are required. Give the field that the user left empty a red border. If both fields have values in them, set their borders to green.
 
-The Calculator
+jQuery Calculator
 
-- Stylize all of the buttons programmatically. Using jQuery to make each button the same width and height, give each button a unique background color, border style, width and color. Also, give the display a unique background color, set the font color and size, and set a unique border style, width, and color.
-- Bubble capture jQuery events and makes use of jQuery DOM manipulation techniques to set the display based on button selections made.
+jQuery Image Selection Slideshow
+
+jQuery Tabbed Menu Bar
+
+jQuery Accordion (10 points)
